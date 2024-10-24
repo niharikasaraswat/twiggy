@@ -14,7 +14,7 @@ const Cart = () => {
     return null; // or some loading state
   }
 
-  const { cartItems, addToCart, removeFromCart, getTotalCartAmount } = context;
+  const { cartItems, removeFromCart, getTotalCartAmount } = context;
   return (
     <div className="cart">
       <div className="cart-items">
